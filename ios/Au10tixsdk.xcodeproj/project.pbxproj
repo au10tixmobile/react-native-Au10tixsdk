@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E555C0D2413F4C50049A1A2 /* Au10tixsdk.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* Au10tixsdk.m */; };
-		F4FF95D7245B92E800C19C63 /*  Au10tixsdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  Au10tixsdk.swift */; };
+		2E7D47AD28BEC2F100FE6AE8 /* Au10tixCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDFA23128BEAAB2001AA54F /* Au10tixCore.xcframework */; };
+		EB826CA5507D3B92F3C7E08A /* Pods_Au10tixsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D28401EF0067ED2A7FAE67 /* Pods_Au10tixsdk.framework */; };
+		F4FF95D7245B92E800C19C63 /* Au10tixsdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* Au10tixsdk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libAu10tixsdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAu10tixsdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDFA23128BEAAB2001AA54F /* Au10tixCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Au10tixCore.xcframework; path = Pods/Au10tixCore/Au10tixCore.xcframework; sourceTree = "<group>"; };
+		9658E6DE502B8B03DD046181 /* Pods-Au10tixsdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Au10tixsdk.debug.xcconfig"; path = "Target Support Files/Pods-Au10tixsdk/Pods-Au10tixsdk.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* Au10tixsdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Au10tixsdk.m; sourceTree = "<group>"; };
+		B6D28401EF0067ED2A7FAE67 /* Pods_Au10tixsdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Au10tixsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5F01ADD233FD7A78BCC274 /* Pods-Au10tixsdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Au10tixsdk.release.xcconfig"; path = "Target Support Files/Pods-Au10tixsdk/Pods-Au10tixsdk.release.xcconfig"; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* Au10tixsdk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Au10tixsdk-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* Au10tixsdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Au10tixsdk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7D47AD28BEC2F100FE6AE8 /* Au10tixCore.xcframework in Frameworks */,
+				EB826CA5507D3B92F3C7E08A /* Pods_Au10tixsdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +56,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2BFED81D4C61222A302D862C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EDFA23128BEAAB2001AA54F /* Au10tixCore.xcframework */,
+				B6D28401EF0067ED2A7FAE67 /* Pods_Au10tixsdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +72,18 @@
 				B3E7B5891CC2AC0600A0062D /* Au10tixsdk.m */,
 				F4FF95D5245B92E700C19C63 /* Au10tixsdk-Bridging-Header.h */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				C03086E0E316709353D0AD1C /* Pods */,
+				2BFED81D4C61222A302D862C /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		C03086E0E316709353D0AD1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9658E6DE502B8B03DD046181 /* Pods-Au10tixsdk.debug.xcconfig */,
+				CB5F01ADD233FD7A78BCC274 /* Pods-Au10tixsdk.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,6 +93,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "Au10tixsdk" */;
 			buildPhases = (
+				3648995EC64AA0F4239340A2 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -111,13 +139,37 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3648995EC64AA0F4239340A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Au10tixsdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F4FF95D7245B92E800C19C63 /* Au10tixsdk.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* Au10tixsdk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +273,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9658E6DE502B8B03DD046181 /* Pods-Au10tixsdk.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -240,6 +293,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5F01ADD233FD7A78BCC274 /* Pods-Au10tixsdk.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

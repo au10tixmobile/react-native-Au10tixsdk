@@ -15,6 +15,6 @@ const Au10tixsdk = NativeModules.Au10tixsdk  ? NativeModules.Au10tixsdk  : new P
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return Au10tixsdk.multiply(a, b);
+export function prepareSdk(token: String): Promise<number> {
+  return Au10tixsdk.prepareSdk(token);
 }

@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C38EB1101671B484E84DF603097D9F13 /* Au10tixCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8CC555A8E915169EC838EB402334C284 /* Build configuration list for PBXAggregateTarget "Au10tixCore" */;
+			buildPhases = (
+				A6C1607C8657A585B74D2FF0C0D80B7A /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Au10tixCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6F84FEBD0183E6A0DA6FB80D5AD44C9D /* Pods-Au10tixsdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF347DEA407A1999F997704EE0039F4 /* Pods-Au10tixsdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D5392C3058740360CC7800FC3C7A6CC /* Pods-Au10tixsdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 139ACDD729254DB6D2BA7C4102DDEA36 /* Pods-Au10tixsdk-dummy.m */; };
+		ECB53B43058FE88D49251557E6CC4497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		341E22808FD5E0C2555313E33C0BC06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38EB1101671B484E84DF603097D9F13;
+			remoteInfo = Au10tixCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004B2A4793F18ACFC82138DE51E77C33 /* Au10tixCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Au10tixCore.xcframework; sourceTree = "<group>"; };
+		0B856DB712AF311ADAA90D755B17D4B4 /* Au10tixCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Au10tixCore.release.xcconfig; sourceTree = "<group>"; };
+		139ACDD729254DB6D2BA7C4102DDEA36 /* Pods-Au10tixsdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Au10tixsdk-dummy.m"; sourceTree = "<group>"; };
+		1E2805D174D7DCD88EC0F5EF678A2BAB /* Pods-Au10tixsdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Au10tixsdk.modulemap"; sourceTree = "<group>"; };
+		302539D5406CBE34D1AF12880143F0A9 /* Pods-Au10tixsdk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Au10tixsdk-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40829D56DB9FA27389EFD3E8FF491B99 /* Pods-Au10tixsdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Au10tixsdk.release.xcconfig"; sourceTree = "<group>"; };
+		5A89EFA861FD07CCC390BD4EAA0E988D /* Au10tixCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Au10tixCore.debug.xcconfig; sourceTree = "<group>"; };
+		6EE000E6B97EA5FFD5B4EC2777FD1609 /* Pods-Au10tixsdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Au10tixsdk.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB1E71DD231EEDBA8981A8789141042 /* Au10tixCore-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Au10tixCore-xcframeworks.sh"; sourceTree = "<group>"; };
+		AEB554B9630908FDDD137BDE351D941F /* Pods-Au10tixsdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Au10tixsdk-Info.plist"; sourceTree = "<group>"; };
+		BA966E7ED6E79049DC49472D33132897 /* Pods-Au10tixsdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Au10tixsdk"; path = Pods_Au10tixsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA4C3A25ED48422A5641C0CB6EBB388 /* Pods-Au10tixsdk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Au10tixsdk-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBF347DEA407A1999F997704EE0039F4 /* Pods-Au10tixsdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Au10tixsdk-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28C3CB4E5B78FA9A79581771EF4FFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB53B43058FE88D49251557E6CC4497 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		579AD88512DD781E88CE5E60B3DDF00D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB1E71DD231EEDBA8981A8789141042 /* Au10tixCore-xcframeworks.sh */,
+				5A89EFA861FD07CCC390BD4EAA0E988D /* Au10tixCore.debug.xcconfig */,
+				0B856DB712AF311ADAA90D755B17D4B4 /* Au10tixCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Au10tixCore";
+			sourceTree = "<group>";
+		};
+		9527EFE10C1602180391814BA77128AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA966E7ED6E79049DC49472D33132897 /* Pods-Au10tixsdk */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E4C097C18FF878A8AC284AD84D24DA /* Pods-Au10tixsdk */ = {
+			isa = PBXGroup;
+			children = (
+				1E2805D174D7DCD88EC0F5EF678A2BAB /* Pods-Au10tixsdk.modulemap */,
+				302539D5406CBE34D1AF12880143F0A9 /* Pods-Au10tixsdk-acknowledgements.markdown */,
+				DEA4C3A25ED48422A5641C0CB6EBB388 /* Pods-Au10tixsdk-acknowledgements.plist */,
+				139ACDD729254DB6D2BA7C4102DDEA36 /* Pods-Au10tixsdk-dummy.m */,
+				AEB554B9630908FDDD137BDE351D941F /* Pods-Au10tixsdk-Info.plist */,
+				EBF347DEA407A1999F997704EE0039F4 /* Pods-Au10tixsdk-umbrella.h */,
+				6EE000E6B97EA5FFD5B4EC2777FD1609 /* Pods-Au10tixsdk.debug.xcconfig */,
+				40829D56DB9FA27389EFD3E8FF491B99 /* Pods-Au10tixsdk.release.xcconfig */,
+			);
+			name = "Pods-Au10tixsdk";
+			path = "Target Support Files/Pods-Au10tixsdk";
+			sourceTree = "<group>";
+		};
+		C7D64A163944E69A797BE4E183AD12FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E4C097C18FF878A8AC284AD84D24DA /* Pods-Au10tixsdk */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CC1E2E4688674454A3CE52D6CA4D8382 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004B2A4793F18ACFC82138DE51E77C33 /* Au10tixCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D00A795831CF0E4B99C0124EA81F2B03 /* Pods */,
+				9527EFE10C1602180391814BA77128AB /* Products */,
+				C7D64A163944E69A797BE4E183AD12FF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D00A795831CF0E4B99C0124EA81F2B03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F865313C43ABF2A8978126D97E8455E3 /* Au10tixCore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F865313C43ABF2A8978126D97E8455E3 /* Au10tixCore */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E2E4688674454A3CE52D6CA4D8382 /* Frameworks */,
+				579AD88512DD781E88CE5E60B3DDF00D /* Support Files */,
+			);
+			name = Au10tixCore;
+			path = Au10tixCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D508EF6A01F2C711D060BE668E0CE58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F84FEBD0183E6A0DA6FB80D5AD44C9D /* Pods-Au10tixsdk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		651318983384B1ED8E084FF1909F19AA /* Pods-Au10tixsdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE2F4E72819F581D7EE201D5728B72F /* Build configuration list for PBXNativeTarget "Pods-Au10tixsdk" */;
+			buildPhases = (
+				3D508EF6A01F2C711D060BE668E0CE58 /* Headers */,
+				B48F841FA8C0595A295440D9B6C07CA8 /* Sources */,
+				A28C3CB4E5B78FA9A79581771EF4FFD5 /* Frameworks */,
+				2E408551502FE10474C2E711EF3ACC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF40EE07C39F57D5F1BDB9994EFD725A /* PBXTargetDependency */,
+			);
+			name = "Pods-Au10tixsdk";
+			productName = Pods_Au10tixsdk;
+			productReference = BA966E7ED6E79049DC49472D33132897 /* Pods-Au10tixsdk */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9527EFE10C1602180391814BA77128AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38EB1101671B484E84DF603097D9F13 /* Au10tixCore */,
+				651318983384B1ED8E084FF1909F19AA /* Pods-Au10tixsdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E408551502FE10474C2E711EF3ACC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6C1607C8657A585B74D2FF0C0D80B7A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Au10tixCore/Au10tixCore-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Au10tixCore/Au10tixCore-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Au10tixCore/Au10tixCore-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48F841FA8C0595A295440D9B6C07CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5392C3058740360CC7800FC3C7A6CC /* Pods-Au10tixsdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF40EE07C39F57D5F1BDB9994EFD725A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Au10tixCore;
+			target = C38EB1101671B484E84DF603097D9F13 /* Au10tixCore */;
+			targetProxy = 341E22808FD5E0C2555313E33C0BC06D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		952D2F20F9DCF9F5095893980394E0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE000E6B97EA5FFD5B4EC2777FD1609 /* Pods-Au10tixsdk.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Au10tixsdk/Pods-Au10tixsdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Au10tixsdk/Pods-Au10tixsdk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AD37E5FF6AD823FB49E82D8164E43B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A89EFA861FD07CCC390BD4EAA0E988D /* Au10tixCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FDDAC9D5DAD8D876F3EE71495B205DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B856DB712AF311ADAA90D755B17D4B4 /* Au10tixCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0899CEE78A491693DA2DCF2FAFB387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40829D56DB9FA27389EFD3E8FF491B99 /* Pods-Au10tixsdk.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Au10tixsdk/Pods-Au10tixsdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Au10tixsdk/Pods-Au10tixsdk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE2F4E72819F581D7EE201D5728B72F /* Build configuration list for PBXNativeTarget "Pods-Au10tixsdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952D2F20F9DCF9F5095893980394E0D7 /* Debug */,
+				FE0899CEE78A491693DA2DCF2FAFB387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC555A8E915169EC838EB402334C284 /* Build configuration list for PBXAggregateTarget "Au10tixCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD37E5FF6AD823FB49E82D8164E43B1 /* Debug */,
+				FDDAC9D5DAD8D876F3EE71495B205DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

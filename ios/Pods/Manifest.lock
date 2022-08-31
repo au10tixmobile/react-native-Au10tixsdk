@@ -1,0 +1,16 @@
+PODS:
+  - Au10tixCore (3.9.0)
+
+DEPENDENCIES:
+  - Au10tixCore
+
+SPEC REPOS:
+  https://github.com/au10tixmobile/iOS_Artifacts_cocoapods_spec.git:
+    - Au10tixCore
+
+SPEC CHECKSUMS:
+  Au10tixCore: 993aa4404ecf3b34269b040819bab8313389b93b
+
+PODFILE CHECKSUM: 9d4e1e7da258edfa6a164b5c5d21cd6edbab2359
+
+COCOAPODS: 1.11.3
